@@ -30,6 +30,8 @@ public class Slime : MonoBehaviour
     [SerializeField]
     private GameObject body;
 
+    public GameObject SlimeMesh;
+
     public float frequency;
     private float lastSpawned;
 

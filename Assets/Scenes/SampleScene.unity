@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657892, g: 0.4964128, b: 0.5748173, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -500,6 +500,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d096a468baf53744aac41de9c8666d37, type: 2}
+    - target: {fileID: 387916047009395216, guid: fc12e8af716f7e740bc007cbf80c1855, type: 3}
+      propertyPath: SlimeMesh
+      value: 
+      objectReference: {fileID: 468151154}
     - target: {fileID: 4244870677831788171, guid: fc12e8af716f7e740bc007cbf80c1855, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -543,6 +547,10 @@ PrefabInstance:
     - target: {fileID: 5822597744290490651, guid: fc12e8af716f7e740bc007cbf80c1855, type: 3}
       propertyPath: m_Name
       value: Slime
+      objectReference: {fileID: 0}
+    - target: {fileID: 5822597744290490651, guid: fc12e8af716f7e740bc007cbf80c1855, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -925,6 +933,67 @@ MonoBehaviour:
   pooledObject: {fileID: 7677794152647756825, guid: 8782947319448bd47834bab8ecf97920, type: 3}
   pooledAmount: 30
   body: {fileID: 468151154}
+--- !u!1001 &811716430859084239
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1445886726693462853, guid: 86cc2d770bbc41a4b880e44c425e740b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.444
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445886726693462853, guid: 86cc2d770bbc41a4b880e44c425e740b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445886726693462853, guid: 86cc2d770bbc41a4b880e44c425e740b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.366
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445886726693462853, guid: 86cc2d770bbc41a4b880e44c425e740b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445886726693462853, guid: 86cc2d770bbc41a4b880e44c425e740b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445886726693462853, guid: 86cc2d770bbc41a4b880e44c425e740b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445886726693462853, guid: 86cc2d770bbc41a4b880e44c425e740b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445886726693462853, guid: 86cc2d770bbc41a4b880e44c425e740b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445886726693462853, guid: 86cc2d770bbc41a4b880e44c425e740b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445886726693462853, guid: 86cc2d770bbc41a4b880e44c425e740b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196334785118362682, guid: 86cc2d770bbc41a4b880e44c425e740b, type: 3}
+      propertyPath: m_Name
+      value: SlimeChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017714389835464510, guid: 86cc2d770bbc41a4b880e44c425e740b, type: 3}
+      propertyPath: changeMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 9b942cb684b38c442ab05a45437762d4, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 86cc2d770bbc41a4b880e44c425e740b, type: 3}
 --- !u!1001 &4305378188085764510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -935,15 +1004,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5179708378747051404, guid: 4aa317be4a7ab4448a0c19b92321deec, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.044164848
+      value: 0.04416485
       objectReference: {fileID: 0}
     - target: {fileID: 5179708378747051404, guid: 4aa317be4a7ab4448a0c19b92321deec, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000002148699
+      value: 0.000000002148699
       objectReference: {fileID: 0}
     - target: {fileID: 5179708378747051404, guid: 4aa317be4a7ab4448a0c19b92321deec, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 9.4989655e-11
+      value: -9.4989655e-11
       objectReference: {fileID: 0}
     - target: {fileID: 6017993808259147118, guid: 4aa317be4a7ab4448a0c19b92321deec, type: 3}
       propertyPath: m_Follow
@@ -953,6 +1022,10 @@ PrefabInstance:
       propertyPath: m_LookAt
       value: 
       objectReference: {fileID: 1036437626}
+    - target: {fileID: 6017993808259147118, guid: 4aa317be4a7ab4448a0c19b92321deec, type: 3}
+      propertyPath: m_YAxis.m_MaxSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6087757102675506512, guid: 4aa317be4a7ab4448a0c19b92321deec, type: 3}
       propertyPath: m_Name
       value: FreeLook Camera
@@ -1090,3 +1163,4 @@ SceneRoots:
   - {fileID: 4305378188085764510}
   - {fileID: 6640160675476893572}
   - {fileID: 1144684145}
+  - {fileID: 811716430859084239}
