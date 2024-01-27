@@ -1919,15 +1919,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5179708378747051404, guid: 4aa317be4a7ab4448a0c19b92321deec, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.044164848
+      value: 0.04416485
       objectReference: {fileID: 0}
     - target: {fileID: 5179708378747051404, guid: 4aa317be4a7ab4448a0c19b92321deec, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000002148699
+      value: 0.000000002148699
       objectReference: {fileID: 0}
     - target: {fileID: 5179708378747051404, guid: 4aa317be4a7ab4448a0c19b92321deec, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 9.4989655e-11
+      value: -9.4989655e-11
       objectReference: {fileID: 0}
     - target: {fileID: 6017993808259147118, guid: 4aa317be4a7ab4448a0c19b92321deec, type: 3}
       propertyPath: m_Follow
@@ -1939,7 +1939,7 @@ PrefabInstance:
       objectReference: {fileID: 1036437626}
     - target: {fileID: 6017993808259147118, guid: 4aa317be4a7ab4448a0c19b92321deec, type: 3}
       propertyPath: m_YAxis.m_MaxSpeed
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6087757102675506512, guid: 4aa317be4a7ab4448a0c19b92321deec, type: 3}
       propertyPath: m_Name
