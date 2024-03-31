@@ -96,7 +96,7 @@ public class Slime : MonoBehaviour
 
     void Sprint()
     {
-        _speed = 12;
+        //_speed = 12;
         GameObject slimeTrail = ObjectPoolManager.Instance.GetPooledObject(ObjectPoolManager.PoolTypes.SlimePool);
         slimeTrail.SetActive(true);
         slimeTrail.transform.position = transform.position;

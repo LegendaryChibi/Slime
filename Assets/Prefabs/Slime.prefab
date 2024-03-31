@@ -86,7 +86,8 @@ MonoBehaviour:
     m_Bits: 64
   _groundCheck: {fileID: 7840647666154942734}
   _rigidbody: {fileID: 1460384051291629939}
-  body: {fileID: 3415997077861858151}
+  body: {fileID: 5506139993204752986}
+  SlimeMesh: {fileID: 5506139993204752986}
   frequency: 0.05
   orientation: {fileID: 5674280294284481526}
 --- !u!54 &1460384051291629939
@@ -306,9 +307,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1623982517867917829, guid: 44495ebddcecb2043b4d5544befee334, type: 3}
   m_PrefabInstance: {fileID: 3650823821264163800}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3415997077861858151 stripped
+--- !u!1 &5506139993204752986 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 2144377331966699711, guid: 44495ebddcecb2043b4d5544befee334, type: 3}
+  m_CorrespondingSourceObject: {fileID: 9134401525202194818, guid: 44495ebddcecb2043b4d5544befee334, type: 3}
   m_PrefabInstance: {fileID: 3650823821264163800}
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &8269720823904336807 stripped
